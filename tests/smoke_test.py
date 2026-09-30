@@ -17,7 +17,7 @@ def main():
 
     h = client.get("/healthz")
     assert h.status_code == 200
-    assert h.json() == {"status": "ok"}
+    assert h.json() == {"status": "ok."}
 
     print("Smoke test passed!")
 

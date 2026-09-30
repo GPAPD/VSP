@@ -19,7 +19,7 @@ def main():
     assert h.status_code == 200
     assert h.json() == {"status": "ok"}
 
-    print("Smoke test passed ✅")
+    print("Smoke test passed!")
 
 
 if __name__ == "__main__":

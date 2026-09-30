@@ -6,11 +6,8 @@ on:
   pull_request:
     branches: [ main ]
   
-premises:
-  - name: Set up Python
-    uses: actions/setup-python@v2
-    with:
-      python-version: '3.x'
+permissions:
+  contents: read
 
 jobs:
   build:
